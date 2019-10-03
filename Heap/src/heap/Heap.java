@@ -11,6 +11,7 @@ public class Heap {
 	boolean isEmpty() {
 		return size==0;
 	}
+
 	
 	void up(int num) {
 		int par=(num-1)/2;
